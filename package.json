@@ -1,0 +1,32 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "Dulce Puchiko es un sitio web dedicado a una marca de productos para el cuidado e higiene corporal, eco friendly y vegan.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Florencia De Souza",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  },
+  "keywords": [
+    "cósmetica",
+    "natural",
+    "cuidado",
+    "personal",
+    "higiene",
+    "vegan",
+    "eco",
+    "friendly",
+    "sentida",
+    "botánica",
+    "dulce",
+    "puchiko"
+  ]
+}

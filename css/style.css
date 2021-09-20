@@ -1,0 +1,67 @@
+/*FUENTES*/
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+/* RESETEO */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Pattaya', sans-serif;
+  font-size: 18px; }
+
+/*ETIQUETAS*/
+h1 {
+  font-family: "Grand Hotel", cursiva;
+  color: #eea828; }
+
+h1:hover {
+  color: #dc143c; }
+
+a {
+  color: #dc143c; }
+
+a:hover {
+  color: #eea828;
+  font-size: 19px; }
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px; }
+
+/*CLASES*/
+.h-200px {
+  height: 200px; }
+
+.h-100px {
+  height: 100px; }
+
+.w-200px {
+  width: 200px; }
+
+.w-100px {
+  width: 100px; }
+
+.mt-20px {
+  margin-top: 20px; }
+
+.mb-10px {
+  margin-bottom: 10px; }
+
+.bordo {
+  color: #dc143c; }
+
+.naranja {
+  color: #eea828; }
+
+.marco__formulario {
+  color: black;
+  text-align: center; }
+
+.marco__formulario.formulario--partes {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  text-align: center; }
+
+.formulario--partes {
+  width: 100%;
+  background-color: #eea828; }

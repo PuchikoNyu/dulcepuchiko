@@ -1,0 +1,37 @@
+/*CLASES*/
+.h-200px{
+	height: 200px;
+}
+.h-100px{
+	height: 100px;
+}
+.w-200px{
+	width: 200px;
+}
+.w-100px{
+	width: 100px;
+}
+.mt-20px{
+	margin-top: 20px;
+}
+.mb-10px{
+	margin-bottom: 10px;
+}
+.bordo{
+	color: $bordo;
+}
+.naranja{
+	color: $naranja;
+}
+.marco__formulario {
+	color: black;
+	text-align: center; }
+
+	.marco__formulario.formulario--partes {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	text-align: center; }
+
+	.formulario--partes {
+	width: 100%;
+	background-color: $naranja; }
