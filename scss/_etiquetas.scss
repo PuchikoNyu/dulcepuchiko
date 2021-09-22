@@ -1,25 +1,27 @@
 /*ETIQUETAS*/
-h1{
-    font-family: "Grand Hotel", cursiva;
+html {
+	scroll-behavior: smooth;
+}
+
+h1 {
+	font-family: "Grand Hotel", cursiva;
 	color: $naranja;
 }
-h1:hover{
+
+h1:hover {
 	color: $bordo;
 }
 
-a{
+a {
 	color: $bordo;
 }
-a:hover{
+
+a:hover {
 	color: $naranja;
 	font-size: 19px;
 }
 
-p{
+p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 }
-
-
-
-

@@ -1,10 +1,7 @@
+/*FUENTES*/
 @import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
-html {
-  scroll-behavior: smooth; }
-
-/*FUENTES*/
 /* RESETEO */
 * {
   margin: 0;
@@ -13,6 +10,9 @@ html {
   font-size: 18px; }
 
 /*ETIQUETAS*/
+html {
+  scroll-behavior: smooth; }
+
 h1 {
   font-family: "Grand Hotel", cursiva;
   color: #eea828; }
@@ -68,3 +68,23 @@ p {
 .formulario--partes {
   width: 100%;
   background-color: #eea828; }
+
+.btn-wsp img {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  background: #0df053;
+  color: #fafafa;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.315);
+  z-index: 100; }
+
+.btn-wsp img:hover {
+  text-decoration: none;
+  color: #0df053;
+  background-color: #fafafa; }

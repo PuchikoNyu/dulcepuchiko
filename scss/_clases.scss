@@ -1,37 +1,70 @@
 /*CLASES*/
-.h-200px{
+.h-200px {
 	height: 200px;
 }
-.h-100px{
+
+.h-100px {
 	height: 100px;
 }
-.w-200px{
+
+.w-200px {
 	width: 200px;
 }
-.w-100px{
+
+.w-100px {
 	width: 100px;
 }
-.mt-20px{
+
+.mt-20px {
 	margin-top: 20px;
 }
-.mb-10px{
+
+.mb-10px {
 	margin-bottom: 10px;
 }
-.bordo{
+
+.bordo {
 	color: $bordo;
 }
-.naranja{
+
+.naranja {
 	color: $naranja;
 }
+
 .marco__formulario {
 	color: black;
-	text-align: center; }
+	text-align: center;
+}
 
-	.marco__formulario.formulario--partes {
+.marco__formulario.formulario--partes {
 	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
-	text-align: center; }
+	text-align: center;
+}
 
-	.formulario--partes {
+.formulario--partes {
 	width: 100%;
-	background-color: $naranja; }
+	background-color: $naranja;
+}
+
+.btn-wsp img {
+	position: fixed;
+	width: 55px;
+	height: 55px;
+	line-height: 55px;
+	bottom: 30px;
+	right: 30px;
+	background: #0df053;
+	color: #fafafa;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.315);
+	z-index: 100;
+}
+
+.btn-wsp img:hover {
+	text-decoration: none;
+	color: #0df053;
+	background-color: #fafafa;
+}
