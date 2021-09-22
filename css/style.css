@@ -15,10 +15,10 @@ html {
 
 h1 {
   font-family: "Grand Hotel", cursiva;
-  color: #eea828; }
+  color: #dc143c; }
 
 h1:hover {
-  color: #dc143c; }
+  color: #eea828; }
 
 a {
   color: #dc143c; }
@@ -76,7 +76,7 @@ p {
   line-height: 55px;
   bottom: 30px;
   right: 30px;
-  background: #0df053;
+  background: #fafafa;
   color: #fafafa;
   border-radius: 50px;
   text-align: center;
@@ -87,4 +87,24 @@ p {
 .btn-wsp img:hover {
   text-decoration: none;
   color: #0df053;
-  background-color: #fafafa; }
+  background-color: #eea828; }
+
+.btn-arriba img {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  left: 30px;
+  background: #fafafa;
+  color: #000000;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.315);
+  z-index: 100; }
+
+.btn-arriba img:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #dc143c; }
