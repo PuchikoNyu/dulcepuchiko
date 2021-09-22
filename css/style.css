@@ -76,18 +76,13 @@ p {
   line-height: 55px;
   bottom: 30px;
   right: 30px;
-  background: #fafafa;
+  background: #00a800;
   color: #fafafa;
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.315);
   z-index: 100; }
-
-.btn-wsp img:hover {
-  text-decoration: none;
-  color: #0df053;
-  background-color: #eea828; }
 
 .btn-arriba img {
   position: fixed;
@@ -104,7 +99,5 @@ p {
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.315);
   z-index: 100; }
 
-.btn-arriba img:hover {
-  text-decoration: none;
-  color: #ffffff;
-  background-color: #dc143c; }
+.filter-b img:hover {
+  filter: brightness(1.2); }
