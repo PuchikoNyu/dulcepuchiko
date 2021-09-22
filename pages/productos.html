@@ -44,12 +44,12 @@
 
 		<div class="container">
 			<div class="row d-flex align-items-center mb-2 px-4">
-				<a href="../index.html" class="w-100 py-2 border-bottom">Inicio</a>
-				<a href="./productos.html" class="w-100 py-2 border-bottom">Productos</a>
-				<a href="./carrito.html" class="w-100 py-2 border-bottom">Carrito</a>
-				<a href="./iniciar.html" class="w-100 py-2 border-bottom">Iniciar sesión</a>
-				<a href="./contacto.html" class="w-100 py-2 border-bottom">Contacto</a>
-				<a href="./nosotros.html" class="w-100 py-2 border-bottom">Nosotros</a>
+				<a href="../index.html" class="col-12 col-lg-2 col-xl-2 py-2 border-bottom">Inicio</a>
+				<a href="./productos.html" class="col-12 col-lg-2 col-xl-2 py-2 border-bottom">Productos</a>
+				<a href="./carrito.html" class="col-12 col-lg-2 col-xl-2 py-2 border-bottom">Carrito</a>
+				<a href="./iniciar.html" class="col-12 col-lg-2 col-xl-2 py-2 border-bottom">Iniciar sesión</a>
+				<a href="./contacto.html" class="col-12 col-lg-2 col-xl-2 py-2 border-bottom">Contacto</a>
+				<a href="./nosotros.html" class="col-12 col-lg-2 col-xl-2 py-2 border-bottom">Nosotros</a>
 			</div>
 		</div>
 	</header>
@@ -62,16 +62,22 @@
 
 		<!-- MENU -->
 
-		<select class="form-select form-control mb-2" aria-label="Default select example">
-			<option selected><a href="productos.html#almocervical">Almohadilla Cervical</a></option>
-			<option value="1"><a href="productos.html#almolumbar">Almohadilla Lumbar</a></option>
-			<option value="2"><a href="productos.html#fortalecedor">Fortalecedor</a></option>
-			<option value="3"><a href="productos.html#equilibrado">Shampoo Equilibrado</a></option>
-			<option value="4"><a href="productos.html#seco">Shampoo p/Cabello Seco</a></option>
-			<option value="5"><a href="productos.html#graso">Shampoo p/Cabello Graso</a></option>
-			<option value="6"><a href="productos.html#acondicionador">Acondicionador</a></option>
-			<option value="7"><a href="productos.html#serum">Serum Capilar</a></option>
-		</select>
+		<div class="dropdown">
+			<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+				data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Selección de Productos
+			</button>
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				<a class="dropdown-item" href="#almocervical">Almohadilla Cervical</a>
+				<a class="dropdown-item" href="#almolumbar">Almohadilla Lumbar</a>
+				<a class="dropdown-item" href="#fortalecedor">Fortalecedor</a>
+				<a class="dropdown-item" href="#equilibrado">Shampoo Equilibrado</a>
+				<a class="dropdown-item" href="#seco">Shampoo p/Cabello Seco</a>
+				<a class="dropdown-item" href="#graso">Shampoo p/Cabello Graso</a>
+				<a class="dropdown-item" href="#acondicionador">Acondicionador</a>
+				<a class="dropdown-item" href="#serum">Serum Capilar</a>
+			</div>
+		</div>
 	</div>
 	<div class="container mb-5">
 		<div class="row">
@@ -79,9 +85,9 @@
 			<!-- PRODUCTO 1 ALMOHADILLA CERVICAL -->
 
 			<div class="col-12 col-lg-6">
-				<img src="../media/almohadillaCervical.jpeg" alt="Almohadilla Cervical"
+				<img src="../media/almohadillaCervical.jpeg" alt="Almohadilla Cervical" id="almocervical"
 					class="image-fluid w-100 rounded" />
-				<h3 id="almocervical" class="mt-2 naranja">Almohadilla Cervical</h3>
+				<h3 class="mt-2 naranja">Almohadilla Cervical</h3>
 				<p>Las ALMOHADILLAS TÉRMICAS NATURALES están confeccionadas en lienzo, rellenas con semillas y flores de
 					lavanda, para favorecer una adecuada adaptación a las distintas zonas del cuerpo, brindando todos
 					los beneficios de la aromaterapia.
@@ -106,8 +112,9 @@
 			<!-- PRODUCTO 2 ALMOHADILLA LUMBAR -->
 
 			<div class="col-12 col-lg-6">
-				<img src="../media/almohadillaLumbar.jpeg" alt="Almohadilla Lumbar" class="image-fluid w-100 rounded" />
-				<h3 id="almolumbar" class="mt-2 naranja">Almohadilla Lumbar</h3>
+				<img src="../media/almohadillaLumbar.jpeg" alt="Almohadilla Lumbar" id="almolumbar"
+					class="image-fluid w-100 rounded" />
+				<h3 class="mt-2 naranja">Almohadilla Lumbar</h3>
 				<p>Las ALMOHADILLAS TÉRMICAS NATURALES están confeccionadas en lienzo, rellenas con semillas y flores de
 					lavanda, para favorecer una adecuada adaptación a las distintas zonas del cuerpo, brindando todos
 					los beneficios de la aromaterapia.
@@ -134,9 +141,9 @@
 			<!-- PRODUCTO 3 SHAMPOO SOLIDO FORTALECEDOR -->
 
 			<div class="col-12 col-lg-6">
-				<img src="../media/fortalecedor.jpeg" alt="Shampoo sólido Fortalecedor"
+				<img src="../media/fortalecedor.jpeg" alt="Shampoo sólido Fortalecedor" id="fortalecedor"
 					class="image-fluid w-100 rounded" />
-				<h3 id="fortalecedor" class="mt-2 naranja">Shampoo Sólido Fortalecedor</h3>
+				<h3 class="mt-2 naranja">Shampoo Sólido Fortalecedor</h3>
 				<p>COMPONENTES: Cocoil Isetionato de Sódio (tensioactivo natural derivado del coco), Aceite de coco,
 					enriquecido con Manteca de Karité.</p>
 				<p>PRODUCTO APROBADO POR ANMAT</p>
@@ -164,9 +171,9 @@
 			<!-- PRODUCTO 4 SHAMPOO EQUILIBRADO -->
 
 			<div class="col-12 col-lg-6">
-				<img src="../media/equilibrado.jpeg" alt="Shampoo sólido Equilibrado"
+				<img src="../media/equilibrado.jpeg" alt="Shampoo sólido Equilibrado" id="equilibrado"
 					class="image-fluid w-100 rounded" />
-				<h3 id="equilibrado" class="mt-2 naranja">Shampoo Sólido Equilibrado</h3>
+				<h3 class="mt-2 naranja">Shampoo Sólido Equilibrado</h3>
 				<p>COMPONENTES: Cocoil Isetionato de Sodio (tensioactivo natural derivado del coco), Aceite de coco,
 					Aceite de Argán, Aceite Esencial de Romero.</p>
 				<p>PRODUCTO APROBADO POR ANMAT</p>
@@ -196,8 +203,9 @@
 			<!-- PRODUCTO 5 SHAMPOO CABELLO SECO -->
 
 			<div class="col-12 col-lg-6">
-				<img src="../media/seco.jpg" alt="Shampoo sólido Cabello Seco" class="image-fluid w-100 rounded" />
-				<h3 id="seco" class="mt-2 naranja">Shampoo para Cabello Seco</h3>
+				<img src="../media/seco.jpg" alt="Shampoo sólido Cabello Seco" id="seco"
+					class="image-fluid w-100 rounded" />
+				<h3 class="mt-2 naranja">Shampoo para Cabello Seco</h3>
 				<p>COMPONENTES: Cocoil Isetionato de Sodio (tensioactivo natural derivado del coco), Aceite de coco,
 					Aceite de Argán y Aceite Esencial de Lavanda.</p>
 				<p>PRODUCTO APROBADO POR ANMAT</p>
@@ -226,9 +234,9 @@
 			<!-- PRODUCTO 6 SHAMPOO CABELLO GRASO ANTI CASPA -->
 
 			<div class="col-12 col-lg-6">
-				<img src="../media/graso.jpg" alt="Shampoo sólido Cabello Graso Anti Caspa"
+				<img src="../media/graso.jpg" alt="Shampoo sólido Cabello Graso Anti Caspa" id="graso"
 					class="image-fluid w-100 rounded" />
-				<h3 id="graso" class="mt-2 naranja">Shampoo para Cabello Graso c/caspa</h3>
+				<h3 class="mt-2 naranja">Shampoo para Cabello Graso c/caspa</h3>
 				<p>COMPONENTES: Cocoil Isetionato de Sodio (tensioactivo natural derivado del coco), Aceite de coco,
 					enriquecido con aceite de ricino y aceite esencial de limòn. </p>
 				<p>PRODUCTO APROBADO POR ANMAT</p>
@@ -258,8 +266,9 @@
 			<!-- PRODUCTO 7 ACONDICIONADOR -->
 
 			<div class="col-12 col-lg-6">
-				<img src="../media/acondicionador.jpg" alt="Acondicionador" class="image-fluid w-100 rounded" />
-				<h3 id="acondicionador" class="mt-2 naranja">Acondicionador</h3>
+				<img src="../media/acondicionador.jpg" alt="Acondicionador" id="acondicionador"
+					class="image-fluid w-100 rounded" />
+				<h3 class="mt-2 naranja">Acondicionador</h3>
 				<p>COMPONENTES: BTMS, Manteca de cacao, enriquecido con aceite de coco y aceite de jojoba.</p>
 				<p>PRODUCTO APROBADO POR ANMAT</p>
 				<p>PESO: 100grs.</p>
@@ -286,8 +295,8 @@
 			<!-- PRODUCTO 8 SERUM -->
 
 			<div class="col-12 col-lg-6">
-				<img src="../media/serum.png" alt="Serum Capilar" class="image-fluid w-100 rounded" />
-				<h3 id="serum" class="mt-2 naranja">Serum Capilar</h3>
+				<img src="../media/serum.png" alt="Serum Capilar" id="serum" class="image-fluid w-100 rounded" />
+				<h3 class="mt-2 naranja">Serum Capilar</h3>
 				<p>COMPONENTES: Aceite de Argán, Aceite de Andiroba, Aceite Esencial de Neroli.</p>
 				<p>PRODUCTO APROBADO POR ANMAT</p>
 				<p>PRESENTACIÓN: Envase de vidrio reutilizable con dosificador. 27ml.</p>
