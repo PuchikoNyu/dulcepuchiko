@@ -28,7 +28,7 @@
 		<!-- LOGO -->
 
 		<div class="container mb-2">
-			<div class="row d-flex align-items-center">
+			<div class="row d-flex align-items-center w-100">
 				<div class="col-7">
 					<img src="../media/logoSB.png" alt="logo de marca" class="w-50 h-50">
 				</div>
@@ -54,55 +54,40 @@
 
 	<!-- TITULO PAGINA -->
 
-	<div class="container mb-3 mt-3">
-		<h2>Contacto:</h2>
+	<div class="container my-4 animate__animated animate__zoomIn">
+		<div class="container">
+			<h2>Contacto:</h2>
+		</div>
 	</div>
 
 	<!-- FORMULARIO -->
 
-	<div class="container marco__formulario mb-3">
-		<div class="mt-2 mb-3">
+	<div class="container marco__formulario my-5 w-100">
+		<div>
 			<form action="formcontacto.html" method="POST" enctype="multipart/form-data">
-				<div class="container marco__formulario formulario--partes mb-3 px-3 rounded">
-					<div class="pt-2 pb-2">
-						<div>
-							<label>Nombre:</label>
-							<input type="text" name="nombre" placeholder="Ingresa tu nombre aquí">
-						</div>
-						<div>
-							<label>Email:</label>
-							<input type="email" name="email" placeholder=" Ingresa tu mail aquí">
-						</div>
-						<div>
-							<label>Teléfono:</label>
-							<input type="phone" name="teléfono" placeholder=" Ingresa tu teléfono aquí">
-						</div>
+				<div class="form-group container marco__formulario formulario--partes py-4 rounded">
+					<div class="row d-flex align-items-center justify-content-center my-2">
+						<label class="col-4 col-lg-6 col-xl-1">Nombre:</label>
+						<input type="text" name="nombre" placeholder="Ingresa tu nombre..." class="rounded">
+						<label class="col-4 col-lg-6 col-xl-1">Email:</label>
+						<input type="email" name="email" placeholder=" Ingresa tu mail..." class="rounded">
+						<label class="col-4 col-lg-6 col-xl-1">Teléfono:</label>
+						<input type="phone" name="teléfono" placeholder=" Ingresa tu teléfono..." class="rounded">
 					</div>
-				</div>
-				<div class="container marco__formulario formulario--partes mb-3 pt-3 pb-3 rounded">
-					<div class="row d-flex align-items-center justify-content-center px-3">
-						<label class="col-4">Mensaje:</label>
-						<textarea class="col-8"></textarea>
+					<div class="row d-flex align-items-center justify-content-center my-4 px-2">
+						<label class="col-4 col-lg-3 col-xl-3">Mensaje:</label>
+						<textarea class="col-6 col-lg-6 col-xl-6 rounded"></textarea>
 					</div>
-				</div>
-				<div class="container marco__formulario formulario--partes mb-2 rounded">
-					<div class="column d-flex align-items-center justify-content-center mt-1 pt-2">
-						<label class="col-3">Solicitud:</label>
-						<label class="mr-2 col-3">Consulta</label>
-						<input type="checkbox" name="tipodeconsulta" value="consulta" class="col-1">
-						<label class="ml-2 mr-2 col-4">Autorización</label>
-						<input type="checkbox" name="tipodeconsulta" value="autorización" class="col-1">
-					</div>
-					<div class="column d-flex align-items-center justify-content-center mt-1 mb-3">
-						<label class="col-4">Selección:</label>
-						<label class="mr-1 col-2,5">Mayorista</label>
-						<input type="radio" name="tipodeconsulta" value="mayorista" class="col-1">
-						<label class="mr-1 col-3,5">Minorista</label>
-						<input type="radio" name="tipodeconsulta" value="minorista" class="col-1">
+					<div class="row d-flex align-items-center justify-content-center">
+						<label class="col-3 col-lg-4 col-xl-4">Solicitud:</label>
+						<label class="mr-1 col-3 col-lg-3 col-xl-3">Mayorista</label>
+						<input type="radio" name="tipodeconsulta" value="mayorista">
+						<label class="mr-1 col-3 col-lg-3 col-xl-3">Minorista</label>
+						<input type="radio" name="tipodeconsulta" value="minorista">
 					</div>
 				</div>
 				<div>
-					<button type="button" class="btn btn-default formulario--partes mb-3 py-2" data-toggle="modal"
+					<button type="button" class="btn btn-default mt-4 mb-3 w-100" data-toggle="modal"
 						data-target="#contacto">Enviar</button>
 					<div class="modal fade" id="contacto" tabindex="-1" aria-labelledby="contacto" aria-hidden="true">
 						<div class="modal-dialog">
@@ -125,7 +110,7 @@
 					</div>
 				</div>
 				<div class="mb-1">
-					<input type="reset" name="borrar" value="Borrar todo" class="btn btn-default formulario--partes">
+					<input type="reset" name="borrar" value="Borrar todo" class="btn btn-default mt-4 mb-3 w-100">
 				</div>
 			</form>
 		</div>

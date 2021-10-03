@@ -29,7 +29,7 @@
 		<!-- LOGO -->
 
 		<div class="container mb-2">
-			<div class="row d-flex align-items-center">
+			<div class="row d-flex align-items-center w-100">
 				<div class="col-7">
 					<img src="../media/logoSB.png" alt="logo de marca" class="w-50 h-50">
 				</div>
@@ -55,29 +55,29 @@
 
 	<!-- INICIO DE SESION -->
 
-	<div class="container mt-3 mb-3">
-		<h2>Iniciar Sesión:</h2>
+	<div class="container my-4 animate__animated animate__zoomIn">
+		<div class="container">
+			<h2>Iniciar Sesión:</h2>
+		</div>
 	</div>
 
 	<!-- FORMULARIO DE INICIO -->
 
-	<div class="container marco__formulario mb-3">
-		<div class="mt-2 mb-3">
+	<div class="container marco__formulario mt-5 mb-4">
+		<div class="my-3">
 			<form action="sesioniniciada.html" method="POST" enctype="multipart-form-data">
-				<div class="form-group container marco__formulario formulario--partes my-3 p-3 rounded">
+				<div class="form-group container marco__formulario formulario--partes py-4 rounded">
 					<label for="email">Email:</label>
 					<input type="email" class="form-control" id="email" placeholder="Ingrese su email..." name="email">
 					<label for="input type=password"> Contraseña:</label>
 					<input type="password" class="form-control" id="password" placeholder="Ingrese contraseña..."
 						name="password">
-				</div>
-				<div class="col-auto container marco__formulario formulario--partes rounded">
-					<div class="form-check mb-2">
+					<div class="form-check mt-4 mb-2">
 						<input class="form-check-input" type="checkbox" id="autoSizingCheck">
 						<label class="form-check-label" for="autoSizingCheck">Recuerdame</label>
 					</div>
 				</div>
-				<button type="button" class="btn btn-default" data-toggle="modal"
+				<button type="button" class="btn btn-default mt-4 mb-3 w-100" data-toggle="modal"
 					data-target="#bienvenido">Ingresar</button>
 				<div class="modal fade" id="bienvenido" tabindex="-1" aria-labelledby="bienvenido" aria-hidden="true">
 					<div class="modal-dialog">
