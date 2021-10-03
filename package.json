@@ -28,5 +28,13 @@
     "botánica",
     "dulce",
     "puchiko"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PuchikoNyu/dulcepuchiko.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PuchikoNyu/dulcepuchiko/issues"
+  },
+  "homepage": "https://github.com/PuchikoNyu/dulcepuchiko#readme"
 }
